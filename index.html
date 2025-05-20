@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind v3 Demo</title>
+  <link rel="stylesheet" href="dist/output.css" />
+    <link rel="stylesheet" href="src/style.css" />
+</head>
+<body class="bg-gray-100 text-center p-8">
+
+<header>
+    <div class="container mx-auto px-4 border shadow rounded-sm">
+        <div class="main-header-wrapper grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="header-logo flex items-center">
+                <h1 class="font-bold">فرش ماشینی </h1>
+                <img src="src/img/1.png" alt="">
+            </div>
+            <div class="flex items-center justify-center">
+                <ul class="pl-5  flex list-none text-gray-700 items-center gap-5 justify-center">
+                    <li><a href="#">فرش ماشینی</a></li>
+                    <li><a href="#">گالری ویدیو</a></li>
+                    <li><a href="#">درباره ما</a></li>
+                    <li><a href="#">تماس با ما</a></li>
+                    <li><a href="#">خانه </a></li>
+                </ul>
+            </div>
+            <div class="header-account flex justify-center items-center">
+                <div class="w-full max-w-md mx-auto mt-10">
+                    <label for="search" class="sr-only">🔍جستجو</label>
+                    <div class="relative flex">
+                        <input type="text" id="search" placeholder="جستجو ..." class="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "tailwind3-project",
+  "version": "1.0.0",
+  "description": "Tailwind CSS v3 setup",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
